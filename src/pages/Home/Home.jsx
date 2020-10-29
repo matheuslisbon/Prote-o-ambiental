@@ -1,13 +1,10 @@
 import HomeDiv from './styled'
 import Describe from '../Describe/Describe'
-import {Link} from 'react-router-dom'
-
 export default function Home (){
   return(
     <>
   <HomeDiv>
     <header>
-      <Link href='/sobre'>asdasd</Link>
          <h1>Nature Brasil</h1>
    <article>
     <h2>Quem Somos ?</h2>

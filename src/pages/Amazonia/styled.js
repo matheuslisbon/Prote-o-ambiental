@@ -20,8 +20,8 @@ article {
     color: white;
     line-height: 1.3;
 
-    width: 100%;
-    margin: 20px;
+    width: 94%;
+    margin: 20px auto;
     font-weight:500;
     border-radius: 20px;
 
@@ -41,6 +41,16 @@ article {
   img {
     width: 100%;
     height: 50vh;
+  }
+  @media(max-width:900px){
+    div.back{
+      display:flex;
+      flex-direction: column;
+    }
+    article div.fotos-amazonia{
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 `
 export default AmazoniaDiv

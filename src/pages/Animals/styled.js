@@ -30,6 +30,32 @@ const AnimalsDiv = styled.div`
     margin:auto;
     border-bottom: 3px solid aqua;
   }
+  div button {
 
+      margin: 20px 0; 
+      margin-bottom: 39px;
+      color: white;
+      border: none;
+      font-weight:bold;
+      background: linear-gradient(to right, aqua, springgreen);
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: 2s;
+    
+  }
+  div button:hover {
+    background: linear-gradient(to right,springgreen,aqua);
+    border: 5px solid aquamarine;
+  }
+  @media(max-width:1200px){
+    header{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(max-width:790px){
+    header{
+      grid-template-columns: 1fr;
+    }
+  }
 `
 export default AnimalsDiv

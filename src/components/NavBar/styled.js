@@ -16,14 +16,23 @@ const NavBarDiv = styled.div`
   width:100%; 
   top: 0;
   z-index: 999;
-
+  .link-logo {
+    font-size: 38px;
+    color: white;
+  }
   ul{
     display: flex;
   }
-  li{
+  .link{
     margin:0 12px;
-    font-size: 24px;
+    font-size: 26px;
     border-bottom: 2px solid white;
+    text-decoration: none;
+    color: white;
+
+  }
+  .link:hover{
+    border-top: 2px solid white;
   }
 `
 export default NavBarDiv

@@ -11,18 +11,17 @@ export default createGlobalStyle`
     font-family: 'Montserrat', cursive;
   }
   body{
-    height:100vh;
+
     font-family: 'Syne Tactile', cursive;
-    width: 100%;
-    background-image: url('https://images.freeimages.com/images/large-previews/44c/blue-and-yellow-macaw-1641749.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+
   }
   h1,
   ul,
-  li{
+  li,
+  Link{
     margin: 0;
     padding:0;
+    list-style:none;
   }
 
 `

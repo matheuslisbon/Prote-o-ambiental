@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const FooterDiv = styled.div`
-  margin-top: 15px;
+
   font-size: 18px;
   font-weight:bold;
   width: 100%;

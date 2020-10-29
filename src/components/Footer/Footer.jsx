@@ -7,7 +7,7 @@ export default function Footer (){
               <h1>
         Observação Importante
       </h1>
-      <p>Este site foi criado por Matheus Eduardo com o intuito de estudo, Porem a flora e o bioma Brasileiro realmente precisam de cuidados isso é obrigação de todos!</p>
+      <p>Este site foi criado por Matheus Eduardo com o intuito de estudo, Porém a flora e o bioma Brasileiro realmente precisam de cuidados isso é obrigação de todos!</p>
 
 
       </div>

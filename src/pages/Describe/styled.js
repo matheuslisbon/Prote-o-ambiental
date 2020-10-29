@@ -43,6 +43,11 @@ const DescribeDiv = styled.div`
   article div.amazonia{
     color: red;
   }
+  @media(max-width:900px){
+    header{
+      grid-template-columns: 1fr;
+    }
+  }
 
 `
 export default DescribeDiv

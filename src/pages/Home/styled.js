@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
 const HomeDiv = styled.div`
-  
+  background-image: url('https://images.freeimages.com/images/large-previews/44c/blue-and-yellow-macaw-1641749.jpg');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+
   header{
   color: white;
 
@@ -10,8 +13,9 @@ const HomeDiv = styled.div`
   display: flex;
   width: 40%;
   font-weight:500;
-  margin: 20px;
-  margin-top: 95px;
+  min-width: 600px;
+  padding: 20px;
+  padding-top: 95px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -30,7 +34,16 @@ const HomeDiv = styled.div`
   }
 
 
-  
+  @media(max-width:1000px){
+    header{
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: saturate(200%) blur(10px);
+      width:100%;
+      margin: 0 auto;
+      font-size: 16px;
+    }
+  }
+
 
 `
 

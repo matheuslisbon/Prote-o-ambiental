@@ -2,7 +2,7 @@ import AnimalsDiv from './styled'
 
 export default function Animals (){
   return (
-    <AnimalsDiv>
+    <AnimalsDiv className='animals-div'>
       <h1 className='logo'>Adoção de animais</h1>
       <header>
     <div>
@@ -11,6 +11,7 @@ export default function Animals (){
       <h2>ADOTAR UM ANIMAL
 É UM ATO DE AMOR.</h2>
       <p>Agradecemos seu interesse em adotar um cão sem dono. Prepare-se para uma experiência gratificante que durará muitos anos.</p>
+      <button>ADOTAR</button>
     </div>
 
     <div>
@@ -18,6 +19,7 @@ export default function Animals (){
       <h1>Apadrinhe</h1>
       <h2>SEJA UM COLABORADOR FIXO</h2>
       <p>O apadrinhamento de um cão é uma forma de conseguirmos recursos fixos para ajudar na tarefa diária de cuidar de nossos animais, além de ter mais tranquilidade e poder planejar melhor nossas ações.</p>
+      <button>ADOTAR</button>
     </div>
 
     <div>
@@ -25,6 +27,7 @@ export default function Animals (){
       <h1>Doações </h1>
       <h2>COMO AJUDAR </h2>
       <p>Existem muitas formas de nos ajudar a cuidar dos mais de 450 cães que estão abrigados em nossos lares Transitórios, fora os cães que ajudamos a sustentar de outros protetores.</p>
+      <button>ADOTAR</button>
     </div>
       </header>
 
