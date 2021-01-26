@@ -14,7 +14,7 @@ export default function NavBar (){
             <li><Link className='link' to='/contato'></Link></li>
           </ul>
         </div>
-        <h1><Link className='link-logo'>Adotar</Link></h1>
+        <h1><Link className='link-logo' to='/adote'>Adotar</Link></h1>
     </NavBarDiv>
 
 

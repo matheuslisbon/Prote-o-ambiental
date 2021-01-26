@@ -8,6 +8,7 @@ import OrphanageAnimal from './pages/OrphanageAnimal/OrphanageAnimal'
 import Sobre from './pages/Sobre/Sobre'
 
 import Participar from './pages/Participar/Participar'
+import Adote from './pages/Adote/Adote'
 
 export default function Routes(){
   return(
@@ -16,6 +17,7 @@ export default function Routes(){
       <Route path='/sobre' component={Sobre} />
       <Route path='/animais' component={OrphanageAnimal} />
       <Route path='/participar' component={Participar} />
+      <Route path='/adote' component={Adote} />
     </Switch>
   )
 
